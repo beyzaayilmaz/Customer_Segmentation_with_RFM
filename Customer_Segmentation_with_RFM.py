@@ -22,16 +22,16 @@
 
 # The data set named Online Retail II was obtained from a UK-based online store. Includes sales between 01/12/2009 - 09/12/2011.
 
-# Değişkenler
+# Variables
 #
-# InvoiceNo: Fatura numarası. Her işleme yani faturaya ait eşsiz numara. C ile başlıyorsa iptal edilen işlem.
-# StockCode: Ürün kodu. Her bir ürün için eşsiz numara.
-# Description: Ürün ismi
-# Quantity: Ürün adedi. Faturalardaki ürünlerden kaçar tane satıldığını ifade etmektedir.
-# InvoiceDate: Fatura tarihi ve zamanı.
-# UnitPrice: Ürün fiyatı (Sterlin cinsinden)
-# CustomerID: Eşsiz müşteri numarası
-# Country: Ülke ismi. Müşterinin yaşadığı ülke.
+# InvoiceNo:Invoice number. Unique number for each transaction. Aborted operation if it starts with C.
+# StockCode: Product code. Unique number for each product.
+# Description: Product name
+# Quantity: Number of products. It expresses how many of the products on the invoices have been sold.
+# InvoiceDate: Invoice date and time.
+# UnitPrice: Product price (in pounds)
+# CustomerID: Unique customer number
+# Country: Country name. Country where the customer lives.
 
 
 ###############################################################
